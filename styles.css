@@ -32,4 +32,18 @@ body {
 	color: white;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+main {
+	padding: 2rem 1rem 1rem 1rem;
+}
+
+.dark-text {
+	color: var(--gray700);
+}
+
+.light-text {
+	color: var(--light-text);
 }
