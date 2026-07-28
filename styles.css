@@ -177,7 +177,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justsify-content: center;
+	justify-content: center;
 }
 
 .section:nth-of-type(3) .features .feature-section img {
