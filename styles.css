@@ -134,9 +134,41 @@ main {
 }
 
 .section-in-section .bullet-points p {
-	font-size: .75rem;
+	font-size: .69rem;
 	font-weight: 400;
 	margin-bottom: 2.25rem;
 	text-align: left;
 }
+
+.section:nth-of-type(3) {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+.section:nth-of-type(3) h3 {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.section:nth-of-type(3) > p {
+	font-size: 0.69rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.section:nth-of-type(3) > img {
+	width: 25rem;
+	height: auto;
+	margin: 3rem 0;
+}
+
+
+
+
+
+
 
