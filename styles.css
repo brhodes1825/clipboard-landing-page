@@ -166,8 +166,32 @@ main {
 	margin: 3rem 0;
 }
 
+.section:nth-of-type(3) .features {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.section:nth-of-type(3) .features .feature-section {
+	display: flex;
+	flex-direction: column;
+}
 
 
+.section:nth-of-type(3) .features .feature-section img {
+	width: 1rem;
+	height: auto;
+	margin-bottom: 1.2rem;
+}
+
+.section:nth-of-type(3) .features .feature-section h5 {
+	font-size: .8rem;
+	margin-bottom: 1rem;
+}
+
+.section:nth-of-type(3) .features .feature-section p {
+	font-size: .6rem;
+}
 
 
 
