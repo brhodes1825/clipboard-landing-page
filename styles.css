@@ -100,25 +100,28 @@ main {
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
-	text-align: center;
 }
 
 .section:nth-of-type(2) h3 {
 	font-size: 1.1rem;
 	font-weight: 600;
 	margin-bottom: 1rem;
+	text-align: center;
 }
 
 .section:nth-of-type(2) p:nth-of-type(1) {
 	font-size: 0.69rem;
 	font-weight: 400;
 	margin: 0 15rem 2rem 15rem;
+	text-align: center;
 }
 
 .section-in-section {
 	display: flex;
 	flex-direction: row;
 	gap: 3rem;
+	align-items: center;
+	justify-content: center;
 }
 
 .section-in-section img {
