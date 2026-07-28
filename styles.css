@@ -164,6 +164,7 @@ main {
 	width: 25rem;
 	height: auto;
 	margin: 3rem 0;
+	display: flex;
 }
 
 .section:nth-of-type(3) .features {
