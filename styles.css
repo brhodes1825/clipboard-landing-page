@@ -20,7 +20,7 @@ html {
 --green500: hsl(171, 66%, 44%);
 --blue100: hsl(233, 100%, 69%);
 
-	/* Neutral */
+		/* Neutral */
 --gray700: hsl(210, 10%, 33%);
 --gray500: hsl(201, 11%, 66%);
 }
@@ -207,8 +207,8 @@ main {
 	text-align: center;
 }
 
-/* .section:nth-of-type(4) img:nth-of-type(1) {
-	width: 6rem;
+ .section:nth-of-type(4) img {
+	width: 4rem;
 	height: auto;
-} */
+}
 
