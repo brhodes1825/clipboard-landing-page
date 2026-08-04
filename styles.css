@@ -146,7 +146,7 @@ main {
 	align-content: center;
 	justify-content: center;
 	text-align: center;
-	margin: auto auto;
+	margin: 2rem 0;
 }
 
 .section:nth-of-type(3) h3 {
