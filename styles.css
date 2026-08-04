@@ -176,6 +176,7 @@ main {
 	align-content: center;
 	justify-content: center;
 	text-align: center;
+	margin: 1rem;
 }
 
 .section:nth-of-type(3) .features .feature-section {
