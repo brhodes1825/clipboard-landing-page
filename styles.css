@@ -153,20 +153,17 @@ main {
 	font-size: 1.1rem;
 	font-weight: 600;
 	margin-bottom: 1rem;
-/*	text-align: center; */
 }
 
 .section:nth-of-type(3) > p {
 	font-size: 0.69rem;
 	font-weight: 400;
-/*	text-align: center; */
 }
 
 .section:nth-of-type(3) img {
 	width: 25rem;
 	height: auto;
 	margin: 3rem 0;
-/*	display: flex; */
 }
 
 .section:nth-of-type(3) .features {
@@ -180,8 +177,6 @@ main {
 }
 
 .section:nth-of-type(3) .features .feature-section {
-/*	display: flex;
-	flex-direction: column;  */
 	align-content: center;
 	justify-content: center;
 	text-align: center;
