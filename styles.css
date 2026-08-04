@@ -174,6 +174,7 @@ main {
 	gap: 1rem;
 	align-content: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .section:nth-of-type(3) .features .feature-section {
