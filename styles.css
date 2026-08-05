@@ -288,11 +288,11 @@ footer .socials {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	gap: .75rem;
-	margin: 1rem;
+	gap: 1rem;
+/*	margin: 1rem; */
 }
 
 footer .socials a {
 	height: 1rem;
-	width: 1rem;
+	width: auto;
 }
