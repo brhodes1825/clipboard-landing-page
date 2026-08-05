@@ -50,7 +50,7 @@ main {
 	align-content: center;
 	justify-content: center;
 	text-align: center;
-	margin: 2rem 0;
+	margin: 2rem 0 4rem 0;
 }
 
 .section:nth-of-type(1) img {
@@ -97,6 +97,7 @@ main {
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
+	margin-bottom: 4rem;
 }
 
 .section:nth-of-type(2) h3 {
@@ -147,7 +148,7 @@ main {
 	align-content: center;
 	justify-content: center;
 	text-align: center;
-	margin: 2rem 0;
+	margin: 2rem 0 4rem 0;
 }
 
 .section:nth-of-type(3) h3 {
@@ -205,6 +206,7 @@ main {
 	align-content: center;
 	justify-content: space-evenly;
 	text-align: center;
+	margin-bottom: 4rem;
 }
 
  .section:nth-of-type(4) img {
@@ -216,7 +218,7 @@ main {
 	align-content: center;
 	justify-content: center;
 	text-align: center;
-	margin: 2rem 0;
+	margin-bottom: 4rem;
 }
 
 .section:nth-of-type(5) h3 {
