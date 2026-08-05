@@ -257,29 +257,29 @@ footer {
 	display: flex;
 	flex-direction: row;
 	align-content: center;
-	justify-content: space-between;
+	justify-content: center;
+	gap: 3rem;
 	background-color: var(--footer-bg);
 }
 
 footer img {
-	height: 1.375rem;
-	width: 1.375rem;
+	height: 1.5rem;
+	width: 1.5rem;
 	margin: 1rem;
 }
 
 footer .links {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: flex-start;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
 	margin: 1.5rem;
 }
 
-footer a {
+footer .link {
 	font-size: .69rem;
 	color: var(--gray700);
 	text-decoration: none;
+	
 }
 
 footer .socials {
