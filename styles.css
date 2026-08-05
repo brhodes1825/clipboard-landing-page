@@ -257,7 +257,7 @@ footer {
 	display: flex;
 	flex-direction: row;
 	align-content: center;
-	justify-content: center;
+	justify-content: space-between;
 	background-color: var(--footer-bg);
 }
 
