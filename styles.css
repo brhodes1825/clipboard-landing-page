@@ -23,6 +23,7 @@ html {
 		/* Neutral */
 --gray700: hsl(210, 10%, 33%);
 --gray500: hsl(201, 11%, 66%);
+--footer-bg: hsl(210 10% 83.4%);
 }
 
 body {
@@ -255,7 +256,9 @@ main {
 footer {
 	display: flex;
 	flex-direction: row;
-	background-color: var(--gray500);
+	align-content: center;
+	justify-content: center;
+	background-color: var(--footer-bg);
 }
 
 footer img {
@@ -268,7 +271,12 @@ footer .links {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
 	margin: 1.5rem;
+}
+
+footer a {
 	font-size: .69rem;
 	color: var(--gray700);
 	text-decoration: none;
