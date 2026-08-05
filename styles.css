@@ -260,6 +260,7 @@ footer {
 	justify-content: center;
 	gap: 3rem;
 	background-color: var(--footer-bg);
+	width: 100vw;
 }
 
 footer img {
