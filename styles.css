@@ -266,7 +266,15 @@ footer {
 	width: 100vw;
 }
 
-footer img {
+footer .wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	align-content: center;
+	justify-content: center;
+}
+
+footer .wrapper img {
 	height: 2rem;
 	width: 2rem;
 }
@@ -279,21 +287,23 @@ footer .links {
 }
 
 footer .link {
-	font-size: .69rem;
+	font-size: .85rem;
 	color: var(--gray700);
 	text-decoration: none;
 	
 }
 
 footer .socials {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr
+/*	align-content: center;
+	justify-content: center; */
 	gap: 1rem;
 /*	margin: 1rem; */
 }
 
-footer .socials a {
+footer .socials img {
 	height: 1rem;
 	width: auto;
 }
