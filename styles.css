@@ -82,6 +82,12 @@ main {
 	font-size: 0.9rem
 }
 
+.buttons a:nth-of-type(1):hover {
+	background-color: white;
+	color: var(--green500);
+	border: solid .063rem gray;
+}
+
 .section:nth-of-type(1) .buttons a:nth-of-type(2) {
 	padding: .5rem 1rem;
 	border-radius: 10rem;
@@ -90,6 +96,12 @@ main {
 	text-decoration: none;
 	font-family: 'Bai Jamjuree', sans-serif;
 	font-size: 0.9rem
+}
+
+.buttons a:nth-of-type(2):hover {
+	background-color: white;
+	color: var(--blue100);
+	border: solid .063rem gray;
 }
 
 .section:nth-of-type(2) {
@@ -253,7 +265,6 @@ main {
 	font-family: 'Bai Jamjuree', sans-serif;
 	font-size: 0.9rem
 }
-
 
 footer {
 	display: grid;
