@@ -328,15 +328,14 @@ footer .link:hover {
 }
 
 footer .socials {
-	display: flex;
-	flex-direction: row;
+	display: grid;
 	align-content: center;
 	justify-content: center;
+	text-align: center;
 	height: 100%;
 	width: 100%;
 	gap: 1rem;
     margin-right: 5rem;
-	text-align: center;
 }
 
 footer .socials img {
