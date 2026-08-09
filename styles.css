@@ -329,6 +329,7 @@ footer .socials {
 	flex-direction: row;
 	align-content: center;
 	justify-content: center;
+	height: 100%;
 	gap: 1rem;
     margin-right: 5rem;
 }
