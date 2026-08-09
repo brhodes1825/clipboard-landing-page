@@ -292,8 +292,8 @@ footer {
 
 footer .wrapper {
 	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
+/*	grid-template-columns: 1fr;
+	grid-template-rows: 1fr; */
 	align-content: center;
 	justify-content: center;
 	text-align: center;
