@@ -325,13 +325,12 @@ footer .link:hover {
 }
 
 footer .socials {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-/*	grid-template-rows: 1fr */
-/*	align-content: center;
-	justify-content: center; */
-/*	gap: 1rem; */
-/*	margin: 1rem; */
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	gap: 1rem;
+    margin-right: 5rem;
 }
 
 footer .socials img {
