@@ -269,7 +269,7 @@ footer {
 footer .wrapper {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
+/*	grid-template-rows: 1fr; */
 	align-content: center;
 	justify-content: center;
 }
@@ -296,7 +296,7 @@ footer .link {
 footer .socials {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr
+/*	grid-template-rows: 1fr */
 /*	align-content: center;
 	justify-content: center; */
 	gap: 1rem;
@@ -309,6 +309,11 @@ footer .socials img {
 }
 
 @media only screen and (max-width: 1000px) {
+
+	body {
+		background-image: url("bg-header-mobile.png");
+	}
+	
 	.buttons {
 		display: flex;
 		flex-direction: column;
