@@ -296,6 +296,8 @@ footer .wrapper {
 /*	grid-template-rows: 1fr; */
 	align-content: center;
 	justify-content: center;
+	width: 100%;
+	height: 100%;
 }
 
 footer .wrapper img {
@@ -330,6 +332,7 @@ footer .socials {
 	align-content: center;
 	justify-content: center;
 	height: 100%;
+	width: 100%;
 	gap: 1rem;
     margin-right: 5rem;
 }
