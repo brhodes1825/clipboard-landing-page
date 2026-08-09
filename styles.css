@@ -326,11 +326,11 @@ footer .link:hover {
 
 footer .socials {
 	display: grid;
-	grid-template-rows: 1fr;
+	grid-template-columns: repeat(3, 1fr);
 /*	grid-template-rows: 1fr */
 /*	align-content: center;
 	justify-content: center; */
-	gap: 1rem;
+/*	gap: 1rem; */
 /*	margin: 1rem; */
 }
 
