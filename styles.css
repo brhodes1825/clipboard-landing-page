@@ -308,6 +308,21 @@ footer .socials img {
 	width: auto;
 }
 
-/* @media only screen and (max-width 1000px) {
-	
-} */
+@media only screen and (max-width: 1000px) {
+	.buttons {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.section-in-section {
+		flex-direction: column;
+	}
+
+	.section:nth-of-type(3) .features {
+		flex-direction: column;
+	}
+
+	.section:nth-of-type(4) {
+		flex-direction: column;
+	}
+}
