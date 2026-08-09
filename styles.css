@@ -293,6 +293,13 @@ footer .link {
 	
 }
 
+footer .link:hover {
+	font-size: .85rem;
+	color: var(--gray700);
+	text-decoration: underline;
+	
+}
+
 footer .socials {
 	display: grid;
 	grid-template-rows: 1fr;
