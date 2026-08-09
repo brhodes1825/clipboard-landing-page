@@ -256,11 +256,10 @@ main {
 
 
 footer {
-	display: flex;
-	flex-direction: row;
-	align-content: center;
-	justify-content: center;
-	gap: 3rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+/*	gap: 5rem; */
 	background-color: var(--footer-bg);
 	width: 100vw;
 }
