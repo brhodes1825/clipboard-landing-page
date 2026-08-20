@@ -356,6 +356,8 @@ footer .socials img {
 	.buttons {
 		display: flex;
 		flex-direction: column;
+		align-content: center;
+		justify-content: center;
 		width: 50%;
 		height: auto;
 	}
@@ -375,10 +377,15 @@ footer .socials img {
 
 	.section:nth-of-type(4) {
 		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		text-align: center;
+		margin: 1rem;
 	}
 
 	.section:nth-of-type(4) img {
 		height: auto;
 		width: 4rem;
+		gap: 1rem;
 	}
 }
