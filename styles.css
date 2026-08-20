@@ -400,12 +400,19 @@ footer .socials a {
 	footer {
 		display: flex;
 		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		text-align: center;
 		padding: 1rem;
+		width: 100vw;
 	}
 
 	footer .links {
 		display: flex;
 		flex-direction: column;
+/*		align-content: center;
+		justify-content: center;
+		text-align: center; */
 		margin: 1rem;
 	}
 }
