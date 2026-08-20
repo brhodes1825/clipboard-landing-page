@@ -329,9 +329,9 @@ footer .link:hover {
 footer .socials {
 	display: flex;
 	flex-direction: row;
-	align-content: center;
+/*	align-content: center;
 	justify-content: center;
-	text-align: center;
+	text-align: center; */
 	height: 100%;
 	width: 100%;
 	gap: .5rem;
@@ -410,8 +410,8 @@ footer .socials a {
 		display: flex;
 		flex-direction: column;
 /*		align-content: center;
-		justify-content: center;
-		text-align: center; */
+		justify-content: center; */
+		text-align: center;
 		margin: 1rem;
 	}
 }
