@@ -359,6 +359,11 @@ footer .socials img {
 		flex-direction: column;
 		align-content: center;
 		justify-content: center;
+		width: 100vw;
+		height: auto;
+	}
+
+	.buttons a {
 		width: 50%;
 		height: auto;
 	}
