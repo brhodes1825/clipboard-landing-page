@@ -285,16 +285,13 @@ footer {
 	grid-template-rows: 1fr;
 	align-content: center;
 	justify-content: center;
-	text-align: center;
-/*	gap: 5rem; */
+	text-align: left;
 	background-color: var(--footer-bg);
 	width: 100vw;
 }
 
 footer .wrapper {
 	display: grid;
-/*	grid-template-columns: 1fr;
-	grid-template-rows: 1fr; */
 	align-content: center;
 	justify-content: center;
 	text-align: center;
