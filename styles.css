@@ -352,10 +352,17 @@ footer .socials img {
 	.buttons {
 		display: flex;
 		flex-direction: column;
+		width: 50%;
+		height: auto;
 	}
 
 	.section-in-section {
 		flex-direction: column;
+		margin: auto;
+	}
+
+	.section-in-section .bullet-points {
+		text-align: center;
 	}
 
 	.section:nth-of-type(3) .features {
@@ -364,5 +371,10 @@ footer .socials img {
 
 	.section:nth-of-type(4) {
 		flex-direction: column;
+	}
+
+	.section:nth-of-type(4) img {
+		height: auto;
+		width: 4rem;
 	}
 }
