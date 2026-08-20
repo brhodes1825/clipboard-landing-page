@@ -327,7 +327,7 @@ footer .link:hover {
 	
 }
 
-footer a {
+footer .socials a {
 	display: block;
 }
 
@@ -345,6 +345,7 @@ footer .socials {
 footer .socials img {
 	height: 1rem;
 	width: auto;
+	display: block;
 }
 
 @media only screen and (max-width: 1000px) {
