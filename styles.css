@@ -400,6 +400,7 @@ footer .socials a {
 	footer {
 		display: flex;
 		flex-direction: column;
+		padding: 1rem;
 	}
 
 	footer .links {
