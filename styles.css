@@ -396,4 +396,9 @@ footer .socials a {
 		width: 4rem;
 		gap: 1rem;
 	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+	}
 }
