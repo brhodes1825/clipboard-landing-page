@@ -327,24 +327,25 @@ footer .link:hover {
 	
 }
 
-footer .socials a {
-	display: block;
-}
-
 footer .socials {
-	display: grid;
+	display: flex;
+	flex-direction: row;
 	align-content: center;
 	justify-content: center;
 	text-align: center;
 	height: 100%;
 	width: 100%;
-	gap: 1rem;
+	gap: .5rem;
     margin-right: 5rem;
 }
 
 footer .socials img {
 	height: 1rem;
 	width: auto;
+	display: block;
+}
+
+footer .socials a {
 	display: block;
 }
 
