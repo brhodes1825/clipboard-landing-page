@@ -404,6 +404,7 @@ footer .socials a {
 		height: auto;
 		width: 4rem;
 		gap: 1rem;
+		margin-top: 1rem;
 	}
 
 	footer {
@@ -419,9 +420,8 @@ footer .socials a {
 	footer .links {
 		display: flex;
 		flex-direction: column;
-/*		align-content: center;
-		justify-content: center; */
+		align-content: center;
+		justify-content: center;
 		text-align: center;
-		margin: 1rem;
 	}
 }
