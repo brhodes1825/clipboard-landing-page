@@ -366,6 +366,7 @@ footer .socials a {
 	.buttons a {
 		width: 50%;
 		height: auto;
+		margin-top: 1rem;
 	}
 
 	.section-in-section {
