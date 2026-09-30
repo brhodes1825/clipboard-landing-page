@@ -360,10 +360,22 @@ footer .socials a {
 /*		align-content: center;
 		justify-content: center;
 		width: 100vw;
-		height: auto; */
-	}
+		height: auto;
+	} */
 
-	.buttons a {
+/*	.buttons a {
+		width: 50%;
+		height: auto;
+		margin-top: 1rem;
+		text-align: center;
+	} */
+
+/*	.section:nth-of-type(1) .buttons {
+		justify-items: center;
+		align-items: center;
+	} */
+
+	.section:nth-of-type(1)	.buttons a {
 		width: 50%;
 		height: auto;
 		margin-top: 1rem;
@@ -383,7 +395,7 @@ footer .socials a {
 		text-align: center;
 	}
 
-.section-in-section .bullet-points p {
+	.section-in-section .bullet-points p {
 		text-align: center;
 	}
 
@@ -397,7 +409,7 @@ footer .socials a {
 		align-content: center;
 		justify-content: center;
 		text-align: center;
-		margin: 1rem 1rem 4rem 1rem;
+		margin: 1rem;
 		width: 100vw;
 	}
 
