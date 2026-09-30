@@ -435,20 +435,22 @@ footer .socials a {
 	}
 
 	footer {
-		display: flex;
-		flex-direction: column;
-		align-content: center;
-		justify-content: center;
-		text-align: center;
-		padding: 1rem;
-		width: 100vw;
+		display: grid;
 	}
 
 	footer .links {
-		display: flex;
-		flex-direction: column;
-		align-content: center;
-		justify-content: center;
-		text-align: center;
+		display: grid;
+	}
+
+	footer .socials {
+		display: grid;
+	}
+	
+	footer .socials img {
+		display: in-line;
+	}
+
+	footer .socials a {
+		display: in-line;
 	}
 }
