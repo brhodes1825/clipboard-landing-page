@@ -421,6 +421,19 @@ footer .socials a {
 		margin-top: 1rem;
 	}
 
+	.section:nth-of-type(5) .buttons {
+		display: grid;
+		justify-items: center;
+		align-items: center;
+	}
+
+	.section:nth-of-type(5)	.buttons a {
+		width: 50%;
+		height: auto;
+		margin-top: 1rem;
+		text-align: center;
+	}
+
 	footer {
 		display: flex;
 		flex-direction: column;
