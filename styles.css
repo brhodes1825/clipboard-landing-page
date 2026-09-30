@@ -392,17 +392,18 @@ footer .socials a {
 	}
 
 	.section:nth-of-type(4) {
-		flex-direction: column;
+	/*	flex-direction: column; */
+		display: grid;
 		align-content: center;
 		justify-content: center;
 		text-align: center;
-		margin: 1rem;
+		margin: 1rem 1rem 4rem 1rem;
 		width: 100vw;
 	}
 
 	.section:nth-of-type(4) img {
 		height: auto;
-		width: 4rem;
+		width: 6rem;
 		gap: 1rem;
 		margin-top: 1rem;
 	}
