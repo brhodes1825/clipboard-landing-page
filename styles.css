@@ -447,6 +447,7 @@ footer .socials a {
 		grid-template-columns: unset;
 		grid-template-rows: repeat(5, 1fr);
 		margin: 1rem;
+		text-align: center;
 	}
 
 	footer .socials {
