@@ -438,17 +438,21 @@ footer .socials a {
 		display: grid;
 		grid-template-columns: unset;
 		grid-template-rows: repeat(3, 1fr);
+		margin: 1rem;
+		padding: 1rem;
 	}
 
 	footer .links {
 		display: grid;
 		grid-template-columns: unset;
 		grid-template-rows: repeat(5, 1fr);
+		margin: 1rem;
 	}
 
 	footer .socials {
 		display: flex;
 		flex-direction: row;
+		margin: 1rem;
 	}
 	
 	footer .socials img {
