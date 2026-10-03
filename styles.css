@@ -441,6 +441,7 @@ footer .socials a {
 		grid-template-rows: repeat(3, 1fr);
 		margin: 1rem;
 		padding: 1rem;
+		height: auto;
 	}
 
 	footer .links {
