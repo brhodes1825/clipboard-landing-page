@@ -439,7 +439,7 @@ footer .socials a {
 	/*	grid-template-columns: 1fr; */
 		grid-template-columns: unset;
 		grid-template-rows: repeat(3, 1fr);
-		margin: 1rem;
+		margin: 1rem 0 0 0;
 		padding: 1rem;
 		height: auto;
 	}
