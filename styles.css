@@ -444,6 +444,11 @@ footer .socials a {
 		height: auto;
 	}
 
+	footer .wrapper {
+		width: auto;
+		height: auto;
+	}
+
 	footer .links {
 		display: grid;
 		grid-template-columns: unset;
